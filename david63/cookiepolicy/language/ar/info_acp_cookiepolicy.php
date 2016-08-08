@@ -41,8 +41,11 @@ $lang = array_merge($lang, array(
 	'ALL'								=> 'جميع الصفحات',
 
 	'CLICK_TO_SELECT'					=> 'أنقر هنا أو على المربع لتحديد اللون',
-	'CLOSE_PICKER'						=> 'إغلاق',
 
+	'COOKIE_BOX_BDR_COLOUR'				=> 'لون البرواز ',
+	'COOKIE_BOX_BDR_COLOUR_EXPLAIN'		=> 'حدد لون الإطار لمربع موافقة الكوكيز.<br />اللون الإفتراضي هو <strong>“#FFFF8A”</strong>',
+	'COOKIE_BOX_BDR_WIDTH'				=> 'عرض البرواز ',
+	'COOKIE_BOX_BDR_WIDTH_EXPLAIN'		=> 'حدد عرض الإطار لمربع موافقة الكوكيز.<br />مقاس العرض الإفتراضي هو <strong>“1”</strong>',
 	'COOKIE_BOX_BG_COLOUR'				=> 'لون الخلفية ',
 	'COOKIE_BOX_BG_COLOUR_EXPLAIN'		=> 'حدد لون الخلفية في مربع موافقة الكوكيز بالصفحة الرئيسية.',
 	'COOKIE_BOX_HREF_COLOUR'			=> 'لون الرابط ',
@@ -52,8 +55,6 @@ $lang = array_merge($lang, array(
 	'COOKIE_BOX_POSITION'				=> 'مكان المربع ',
 	'COOKIE_BOX_POSITION_EXPLAIN'		=> 'حدد مكان مربع موافقة الكوكيز في اليمين أو اليسار بالصفحة الرئيسية.',
 
-	'COOKIE_CUSTOM_BOX'					=> 'تفعيل ',
-	'COOKIE_CUSTOM_BOX_EXPLAIN'			=> 'استخدام الألوان التي تحددها هنا لمربع الكوكيز بالصفحة الرئيسية.<br />سوف يتم استخدام الألوان الإفتراضية إذا أخترت <strong>لا</strong>.',
 	'COOKIE_CUSTOM_PAGE'				=> 'تفعيل ',
 	'COOKIE_CUSTOM_PAGE_EXPLAIN'		=> 'استخدام الألوان التي تحددها هنا لصفحة سياسة الكوكيز.<br />سوف يتم استخدام الألوان الإفتراضية إذا أخترت <strong>لا</strong>.',
 
@@ -92,9 +93,11 @@ $lang = array_merge($lang, array(
 	'CUSTOM_PAGE_COLOURS'				=> 'تخصيص الألوان لصفحة الكوكيز',
 	'CUSTOM_PAGE_COLOURS_EXPLAIN'		=> '<strong>تستطيع هنا تغيير ألوان صفحة سياسة الكوكيز لكي يناسب استايل منتداك.</strong>',
 
-	'LOG_COOKIE_ERROR'					=> '<strong>فشل في البحث عن عنوان الـIP</stong>',
-	'LOG_CURL_ERROR'					=> '<strong>مكتبة الإتصال cURL غير موجود في هذا السيرفر</stong>',
+	'LOG_COOKIE_ERROR'					=> '<strong>فشل في البحث عن عنوان الـIP</strong>',
+	'LOG_CURL_ERROR'					=> '<strong>مكتبة الإتصال cURL غير موجود في هذا السيرفر</strong>',
 	'LOG_SERVER_ERROR'					=> '<strong>غير قادر على الإتصال بعنوان الآي بي للسيرفر</strong>',
+
+	'PIXELS'							=> 'بكسل',
 
 	'UNBAN_IP'							=> 'رفع الحظر عن عنوان الـIP ',
 	'UNBAN_IP_EXPLAIN'					=> 'النظام سوف يحظر تلقائياً أي رقم IP ينفذ أكثر من 250 طلبات في الدقيقة الواحدة. <a href="http://ip-api.com/docs/unban">انقر هنا</a> للحصول على نموذج رفع الحظر إذا تم حظر عنوان الآي بي الخاص بك.',
